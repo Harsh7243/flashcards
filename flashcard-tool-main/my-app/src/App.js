@@ -200,7 +200,7 @@ function App() {
   const [isEditing, setIsEditing] = useState(false);
 
   // Use the deployed backend URL for API requests
-  const baseURL = 'https://flashcards-production-b9bc.up.railway.app/api/flashcards';
+  const baseURL = 'https://flashcards-production-b9bc.up.railway.app/';
 
   useEffect(() => {
     axios.get(baseURL)
